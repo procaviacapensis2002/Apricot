@@ -1,0 +1,62 @@
+sequencing_parameters:
+  read_length: 150
+
+dirs:
+  input: /home/yumie/kdm5cKD/inputs
+  output: /home/yumie/kdm5cKD/outputs
+
+genome_reference:
+  fasta: GRCm38.primary_assembly.genome.fa
+  gtf: gencode.vM21.annotation.gtf
+  star:
+    genome_dir: /home/yumie/kdm5cKD/reference/GRCm38_vM21
+
+samples:
+  Sample01-Epi_2_M:
+    - Sample1_1.fastq.gz
+    - Sample1_2.fastq.gz
+  Sample02-Epi_2_F:
+    - Sample2_1.fastq.gz
+    - Sample2_2.fastq.gz
+  Sample03-Epi_3_M:
+    - Sample3_1.fastq.gz
+    - Sample3_2.fastq.gz
+  Sample04-Epi_3_F:
+    - Sample4_1.fastq.gz
+    - Sample4_2.fastq.gz
+  Sample05-Epi_G_M:
+    - Sample5_1.fastq.gz
+    - Sample5_2.fastq.gz
+  Sample06-Epi_G_F:
+    - Sample6_1.fastq.gz
+    - Sample6_2.fastq.gz
+  Sample07-Epi_Sc_M:
+    - Sample7_1.fastq.gz
+    - Sample7_2.fastq.gz
+  Sample08-Epi_Sc_F:
+    - Sample8_1.fastq.gz
+    - Sample8_2.fastq.gz
+  Sample09-ES_2_M:
+    - Sample9_1.fastq.gz
+    - Sample9_2.fastq.gz
+  Sample10-ES_2_F:
+    - Sample10_1.fastq.gz
+    - Sample10_2.fastq.gz
+  Sample11-ES_3_M:
+    - Sample11_1.fastq.gz
+    - Sample11_2.fastq.gz
+  Sample12-ES_3_F:
+    - Sample12_1.fastq.gz
+    - Sample12_2.fastq.gz
+  Sample13-ES_G_M:
+    - Sample13_1.fastq.gz
+    - Sample13_2.fastq.gz
+  Sample14-ES_G_F:
+    - Sample14_1.fastq.gz
+    - Sample14_2.fastq.gz
+  Sample15-ES_Sc_M:
+    - Sample15_1.fastq.gz
+    - Sample15_2.fastq.gz
+  Sample16-ES_Sc_F:
+    - Sample16_1.fastq.gz
+    - Sample16_2.fastq.gz
